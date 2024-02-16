@@ -1,0 +1,204 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "coordinate": {
+        "longitude": 41.3,
+        "latitude": 43
+      },
+      "name": "Иванов Петр",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 2,
+      "coordinate": {
+        "longitude": 39.9,
+        "latitude": 40
+      },
+      "name": "Петров Иван",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 3,
+      "coordinate": {
+        "longitude": 39,
+        "latitude": 41
+      },
+      "name": "Иванов Иван",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 4,
+      "coordinate": {
+        "longitude": 42,
+        "latitude": 41
+      },
+      "name": "Михайлов Алексей",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 5,
+      "coordinate": {
+        "longitude": 41,
+        "latitude": 42
+      },
+      "name": "Иванов Михаил",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 6,
+      "coordinate": {
+        "longitude": 41.34,
+        "latitude": 41.2
+      },
+      "name": "Михайлов Артем",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 7,
+      "coordinate": {
+        "longitude": 42.3,
+        "latitude": 41.2
+      },
+      "name": "Генри Сихудо",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 8,
+      "coordinate": {
+        "longitude": 40.8,
+        "latitude": 43.4
+      },
+      "name": "Конор Макгреггор",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 9,
+      "coordinate": {
+        "longitude": 41.2,
+        "latitude": 42
+      },
+      "name": "Шон Омейли",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 10,
+      "coordinate": {
+        "longitude": 40,
+        "latitude": 40.7
+      },
+      "name": "Шон Стрикленг",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 11,
+      "coordinate": {
+        "longitude": 40.1,
+        "latitude": 40.2
+      },
+      "name": "Исраэль Адесания",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 12,
+      "coordinate": {
+        "longitude": 40.1,
+        "latitude": 41.3
+      },
+      "name": "Френсис Нганну",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 13,
+      "coordinate": {
+        "longitude": 41,
+        "latitude": 40
+      },
+      "name": "Флойд Майвезер",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 14,
+      "coordinate": {
+        "longitude": 40,
+        "latitude": 41
+      },
+      "name": "Джервонта Девис",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 15,
+      "coordinate": {
+        "longitude": 43.4,
+        "latitude": 41.3
+      },
+      "name": "Девид Хэйни",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 16,
+      "coordinate": {
+        "longitude": 40.7,
+        "latitude": 41.4
+      },
+      "name": "Хабиб Нурмагомедов",
+      "phone": "+7-999-999-99-99",
+      "category": "special"
+    },
+    {
+      "id": 17,
+      "coordinate": {
+        "longitude": 39.7,
+        "latitude": 43.2
+      },
+      "name": "Алекс Перейра",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 18,
+      "coordinate": {
+        "longitude": 40.3,
+        "latitude": 41
+      },
+      "name": "Дрикус Дюплесси",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    },
+    {
+      "id": 19,
+      "coordinate": {
+        "longitude": 41.2,
+        "latitude": 41
+      },
+      "name": "Алджомейн Стерлинг",
+      "phone": "+7-999-999-99-99",
+      "category": "bus"
+    },
+    {
+      "id": 20,
+      "coordinate": {
+        "longitude": 42.5,
+        "latitude": 41.2
+      },
+      "name": "Джастин Гейджи",
+      "phone": "+7-999-999-99-99",
+      "category": "lorry"
+    }
+  ]
+}

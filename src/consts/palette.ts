@@ -1,0 +1,9 @@
+export default {
+  BLACK: "#000000",
+  WHITE: "#FFFFFF",
+  TRANSPARENT: "#00000000",
+  TRANSPARENT_DARK: "#000000DD",
+  DARK: "#222222",
+
+  CLUSTER: "#42B6F5",
+};
