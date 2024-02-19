@@ -9,6 +9,9 @@ export default {
     name: "Имя:",
     switchLanguage: "На Английский",
     filter: "Фильтр",
+    bus: "Пассажирский",
+    lorry: "Грузовой",
+    special: "Спецтранспорт",
   },
   en: {
     showMap: "Show map",
@@ -20,5 +23,8 @@ export default {
     name: "Name:",
     switchLanguage: "To Russian",
     filter: "Filter",
+    bus: "Bus",
+    lorry: "Lorry",
+    special: "Special",
   },
 };

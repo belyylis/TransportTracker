@@ -1,4 +1,4 @@
-import { Layout, Palette } from "consts/index";
+import { Layout, Palette } from "consts";
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({

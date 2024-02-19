@@ -4,9 +4,9 @@ import { TDriver } from "types/Driver";
 import { RouteProp } from "@react-navigation/native";
 import MapView, { Marker, Region } from "react-native-maps";
 import { Categories, GoogleMapStyle, Localization } from "consts";
-import styles from "./styles";
 import BasicButton from "components/Buttons/BasicButton";
 import { LocalizationContext } from "context";
+import styles from "./styles";
 
 type DetailsScreenProps =
   | {
@@ -53,7 +53,7 @@ const DetailsScreen: React.FC<DetailsScreenProps> = ({
       <View style={styles.infoWrapper}>
         <Text style={styles.info}>
           <Text style={styles.bold}>{Localization[language].category} </Text>
-          {Categories[item.category].title}
+          {Localization[language][item.category]}
         </Text>
         <Text style={styles.info}>
           <Text style={styles.bold}>{Localization[language].name} </Text>

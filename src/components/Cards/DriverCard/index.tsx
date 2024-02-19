@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useContext } from "react";
 import { TDriver } from "types";
 import { View, Text, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { Categories } from "consts";
+import { Categories, Localization } from "consts";
+import { LocalizationContext } from "context";
 import styles from "./styles";
 
 type DriverCardProps = {
@@ -11,6 +12,8 @@ type DriverCardProps = {
 };
 
 const DriverCard: React.FC<DriverCardProps> = ({ item, onPress }) => {
+  const { language } = useContext(LocalizationContext);
+
   return (
     <TouchableOpacity onPress={onPress} style={styles.container}>
       <LinearGradient
@@ -25,7 +28,9 @@ const DriverCard: React.FC<DriverCardProps> = ({ item, onPress }) => {
           </View>
         </View>
         <View style={styles.infoWrapper}>
-          <Text style={styles.category}>{Categories[item.category].title}</Text>
+          <Text style={styles.category}>
+            {Localization[language][item.category]}
+          </Text>
           <Text style={styles.name}>{item.name}</Text>
           <Text style={styles.id}>ID: #{item.id}</Text>
         </View>

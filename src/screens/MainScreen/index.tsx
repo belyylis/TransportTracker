@@ -19,14 +19,31 @@ import { useQuery } from "@tanstack/react-query";
 import DriverCard from "components/Cards/DriverCard";
 import { TCategory, TDriver } from "types";
 import { LocalizationContext } from "context";
-import { getDrivers } from "api/DriversApi";
+import { DriversAPI } from "api";
+
+const initialRegion = {
+  latitude: 41,
+  longitude: 41,
+  latitudeDelta: 3.5,
+  longitudeDelta: 3.5,
+};
+
+const edges = {
+  top: 50,
+  bottom: 50,
+  left: Layout.W * 0.25 + 50,
+  right: Layout.W * 0.25 + 50,
+};
 
 type MainScreenProps = {
   navigation: StackNavigationProp<any>;
 };
 
 const MainScreen: React.FC<MainScreenProps> = ({ navigation }) => {
-  const query = useQuery({ queryKey: ["drivers"], queryFn: getDrivers });
+  const query = useQuery({
+    queryKey: ["drivers"],
+    queryFn: DriversAPI.getDrivers,
+  });
 
   const { language } = useContext(LocalizationContext);
   const [listMode, setListMode] = useState(true);
@@ -37,20 +54,6 @@ const MainScreen: React.FC<MainScreenProps> = ({ navigation }) => {
     lorry: true,
     special: true,
   });
-
-  const initialRegion = {
-    latitude: 41,
-    longitude: 41,
-    latitudeDelta: 3.5,
-    longitudeDelta: 3.5,
-  };
-
-  const edges = {
-    top: 50,
-    bottom: 50,
-    left: Layout.W * 0.25 + 50,
-    right: Layout.W * 0.25 + 50,
-  };
 
   const filteredData = useMemo(() => {
     return query.data?.filter((item) => filter[item.category]);
